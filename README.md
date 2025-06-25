@@ -72,11 +72,14 @@ Challenge ini dibuat hanya untuk edukasi dan simulasi keamanan siber. Jangan gun
 <details><summary><h2>🏆 Solusi yang Diharapkan - (Spoiler Allert)</h2></summary>
 
 Peserta harus:
-
-    Melihat daftar buku publik melalui /api/books
-    Menemukan bahwa endpoint /api/books/:id ada tetapi membutuhkan header Authorization
-    Menambahkan header Authorization sembarang (karena tidak divalidasi dengan benar)
-    Melakukan brute-force pada ID 1-5 untuk menemukan buku rahasia
+    1. Melihat daftar buku publik melalui /api/books<br>
+    <img src="./assets/perpus-1.png"><img>
+    2. Menemukan bahwa endpoint /api/books/:id ada tetapi membutuhkan header Authorization
+    <img src="./assets/perpus-2.png"><img>
+    3. Menambahkan header Authorization sembarang (karena tidak divalidasi dengan benar)
+    <img src="./assets/perpus-3.png"><img>
+    4. Melakukan brute-force pada ID 1-5 untuk menemukan buku rahasia
+    <img src="./assets/perpus-4.png"><img>
     Mendapatkan flag dari deskripsi buku dengan judul "RAHASIA_PERPUSTAKAAN"
 
 <b>contoh exploit</b>
