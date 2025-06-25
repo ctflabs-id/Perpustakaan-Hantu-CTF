@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://ctflabs:R130109D@ctfl.y5b9cl1.mongodb.net/?retryWrites=true&w=majority&appName=CTFL', {
+mongoose.connect('PLEASE INPUT YO MONGODB HERE', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
